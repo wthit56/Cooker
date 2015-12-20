@@ -1,0 +1,38 @@
+<!doctype html>
+<link href="styles.css" rel="stylesheet" type="text/css" />
+<h1>Cooker</h1>
+<span class=""></span>
+<ol id="instructions"><!--
+	<li id="preheat">Preheat at <em>200</em></li>
+	<li title="Original instructions: 10 minutes at 200">
+		Put <em>Chips</em> in
+		<span class="controls">
+			<button class="Edit">Edit</button>
+			<button class="remove">Remove</button>
+		</span>
+	</li>
+	<li>Wait for <em>10 minutes</em></li>
+	<li title="Original instructions: 12 minutes at 160">
+		Put <em>Pizza</em> in
+		<span class="controls">
+			<button class="edit">Edit</button>
+			<button class="remove">Remove</button>
+		</span>
+	</li>
+	<li>Wait for <em>9 minutes 40 seconds</em></li>
+--></ol>
+<div id="add">
+	<span id="add-name" class="part">
+		<label for="add-name-input">Name </label><input id="add-name-input" type="text" />
+	</span>
+	<span  id="add-time" class="part">
+		<label for="add-time-input">Time to Cook </label><input id="add-time-input" type="number" min = "1" /> <span>minutes</span> <span class="tip" title="Use minimum cook time to avoid overcooking">?</span>
+	</span>
+	<span class="part">
+		<span id="add-temperature" class="part">
+			<label for="add-temperature-input">Temperature </label><input id="add-temperature-input" type="number" min="1" /> <span class="tip" title="It doesn't matter whether you use farenheight or centigrade, just that they're all the same">?</span>
+		</span>
+		<button id="add-submit" type="submit">Add</button>
+	</span>
+</div>
+<script src="script.js" type="text/javascript"></script>

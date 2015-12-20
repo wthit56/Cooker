@@ -1,0 +1,20 @@
+body {font-size:1.5em; font-family:sans-serif;}
+em {font-family:serif; font-style:normal; font-weight:bold;}
+
+button {cursor:pointer;}
+button, input {font:inherit; line-height:normal;}
+
+#instructions {}
+	#instructions li {padding:0.2em 0.3em 0.2em 0.4em; clear:both; line-height:1.6em;}
+		#instructions li:hover {background-color:#eee;}
+	#instructions em {}
+	#instructions .controls {float:right;}
+		#instructions .controls button {margin-left:0.2em;}
+
+#add {line-height:1.8em;}
+	#add-time input, #add-temperature input {text-align:right;}
+	#add-time input {width:2.5em;}
+	#add-temperature input {width:3.5em;}
+
+.part {display:inline-block; margin:0 0.5em 0 0;}
+.tip {cursor:help; border-bottom:1px dotted;}
