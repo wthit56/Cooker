@@ -146,10 +146,3 @@ function next(inst) {
 	var nextInst = inst.nextElementSibling;
 	alert("Cooking needs your attention!");
 }
-
-/*
-add("Pizza", 12, 160);
-add("Chips", 10, 200);
-add("Other Pizza", 9.95, 200);
-render(recalc());
-*/
